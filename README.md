@@ -26,6 +26,7 @@ Cerca de 27% dos colaboradores da base estão desligados. O problema não é uni
 | **No Trabalhista, saem os Júniores e Plenos** | Júnior 53,1% e Pleno 48,3%, contra Sênior 8,7% e Sócio 0,0%. |
 | **Plenos têm turnover alto em todas as áreas** | De 42,4% a 53,4%, inclusive onde a carga é baixa, então a sobrecarga não explica este nível |
 | **Sêniores: saída sem suficiente explicação nos dados** | 35,5% (11 de 31), com satisfação alta (4,19) e poucas horas extras (12,1h). Civil e Corporativo têm carga, satisfação, remuneração e promoção semelhantes, mas turnover de 23,8% e 0,0% |
+
 Em comparação descritiva, desligados registram mais horas extras (26,4h contra 18,9h), mais processos ativos (36,5 contra 30,5) e menor satisfação (3,04 contra 3,62). Essa diferença provavelmente é puxada pelo Trabalhista, e não foi submetida a teste de significância.
 
 
@@ -112,7 +113,7 @@ Tabela final com uma linha por colaborador, resultado da junção das três tabe
 
 ## Metodologia
 
-| # | Hipótese | Variáveis | Método |
+|  | Hipótese | Variáveis | Método |
 |---|---|---|---|
 | H1 | Sobrecarga de trabalho está associada ao desligamento | `horas_extras_mes`, `processos_ativos` | Comparação descritiva de médias |
 | H2 | Insatisfação está associada ao desligamento | `score_satisfacao` | Comparação descritiva de médias |
